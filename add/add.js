@@ -194,7 +194,7 @@ function productimgs(value, arrpod){
            }
            let elemcolr=``;
            for(let j=0;j<e.target.value;j++){
-            elemcolr+=`<input type="text" id="col${i}${j}" class="col"  placeholder="${j+1}  لون المنتج " />`
+            elemcolr+=`<input type="text" id="col${i}${j}" class="col"  placeholder="${j+1}بجانب اشارة الصح لون المنتج " />`
            }
            divcol[i].innerHTML=elemcolr;
            let prodco=[];
