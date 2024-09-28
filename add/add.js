@@ -192,7 +192,7 @@ function productimgs(value, arrpod){
            else{
             arrpod[i].newval="";
            }
-           let elemcolr= `<p> في حال كانت الصورة تحتوي عدة الوان</p>`;
+           let elemcolr= `<p class="pcen"> في حال كانت الصورة تحتوي عدة الوان</p>`;
            
            for(let j=0;j<e.target.value;j++){
             elemcolr+=`<input type="text" id="col${i}${j}" class="col"  placeholder="${j+1}بجانب اشارة الصح لون المنتج " />`
