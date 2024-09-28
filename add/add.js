@@ -10,7 +10,7 @@ let result=[];
 let price=document.querySelector(`#price`);
 let description=document.querySelector(`#description`);
 let newprod= {};
-let arrpod= [];
+let arrpod= []; 
 let s=[]
 let clear=document.querySelector("#clear")
 //get prodctus array from json
